@@ -72,6 +72,11 @@ header {
     padding: 20px 0;
 }
 
+.jumbo .ms_text-area {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
 /* Portfoio Section */
 
 .ms_card {
@@ -89,4 +94,21 @@ header {
 .ms_btn a {
     text-decoration: none;
     color: inherit;
+}
+
+.about .ms_text-area {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Form */
+
+.section-name, .contact {
+    margin-bottom: 20px;
+}
+
+.ms_form-container {
+    width: 60%;
+    margin: 0 auto;
 }
