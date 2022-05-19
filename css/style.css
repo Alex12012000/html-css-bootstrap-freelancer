@@ -43,3 +43,33 @@ header {
     color: white;
     font-size: 20px;
 }
+
+/* MAIN */
+
+/* jumbotron */
+
+.ms_small-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#jumbo {
+    background-color: #1abc9c;
+}
+
+.ms_jumbo-img {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ms_jumbo-img img {
+    width: 200px;
+}
+
+.ms_text-area {
+    padding: 20px 0;
+}
+
+
