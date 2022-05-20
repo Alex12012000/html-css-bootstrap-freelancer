@@ -1,3 +1,10 @@
+/* RESET */
+
+img {
+    width: 100%;
+    display: block;
+}
+
 /* COMMON */
 
 ul {
@@ -6,7 +13,9 @@ ul {
     margin: 0;
 }
 
-
+.ms_section-pd {
+    padding: 2.5rem 0;
+}
 /* HEADER */
 
 header {
@@ -41,12 +50,16 @@ header {
 .ms_menu a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* MAIN */
 
 /* jumbotron */
+
+.jumbo {
+    color: white;
+}
 
 .ms_small-container {
     width: 70%;
@@ -73,33 +86,71 @@ header {
 }
 
 .jumbo .ms_text-area {
-    color: white;
     font-size: 18px;
     font-weight: 500;
 }
+
+.stellina {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.stellina::before, 
+.stellina::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 5rem;
+    background-color: white;
+    vertical-align: middle;
+}
+
+.skills {
+    padding: 20px 0;
+}
+
 /* Portfoio Section */
 
-.ms_card {
-    height: 300px;
-    background-color: blue;
+.ms_card img {
     border-radius: 10px;
 }
 
-/* About */
-
-.about {
-    margin-top: 25px;
+.stellina-black {
+    font-size: 1.5rem;
 }
+
+.stellina-black::before,
+.stellina-black::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 5rem;
+    background-color: black;
+    vertical-align: middle;
+}
+
+/* About */
 
 .ms_btn a {
     text-decoration: none;
     color: inherit;
 }
 
-.about .ms_text-area {
+.ms_text-white-area {
     color: white;
     font-size: 18px;
     font-weight: 500;
+}
+
+.ms_text-white-area .stellina {
+    margin-bottom: 1rem;
+} 
+
+.ms_download-btn {
+    color: white;
+    border-color: white;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 /* Form */
@@ -111,6 +162,7 @@ header {
 .ms_form-container {
     width: 60%;
     margin: 0 auto;
+
 }
 
 /* FOOTER */
