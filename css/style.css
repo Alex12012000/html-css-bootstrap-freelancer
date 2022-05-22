@@ -165,6 +165,19 @@ header {
 
 }
 
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-left: 0;
+}
+
+.btn-send {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    color: white;
+}
+
 /* FOOTER */
 
 footer {
@@ -174,6 +187,29 @@ footer {
 .top-footer {
     background-color: #3a546d;
     padding: 30px 0;
+}
+
+.ms_foot-card {
+    padding: 0 20px;
+}
+
+.ms_circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 10px 5px;
+}
+
+.ms_circle i {
+    line-height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.last-footer-col a {
+    text-decoration: none;
+    color: #1abc9c;
 }
 
 .bottom-footer {
